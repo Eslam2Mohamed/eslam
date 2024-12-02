@@ -1,0 +1,326 @@
+@media (max-width:575px) {
+    .container {
+        width: 85%;
+        padding: 5px;
+    }
+
+    .navbar .nav ul li {
+        display: none;
+    }
+
+    .cv {
+        padding: 50px 0px;
+    }
+
+    .cv .photo {
+        border: none;
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .cv .description {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .description ul {
+        float: none;
+        margin-bottom: 0px;
+    }
+
+    .description .ul2 {
+        margin-left: 0px;
+    }
+
+    .description ul li {
+        padding: 10px 10px 5px 0;
+    }
+
+    .btn {
+        margin: 5px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .our-services .parent {
+        margin: 20px;
+
+    }
+
+    .our-services .parent .child {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .portfolio .buttons ul li {
+        padding: 1px 6px;
+        margin-bottom: 15px;
+    }
+
+    .portfolio .catalogs .catalog1 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .analysis .parent .child {
+        width: 100%;
+        padding: 25px;
+
+    }
+
+    .our-blog .child {
+
+        width: 100%;
+        padding: 5px;
+    }
+
+    .feedback .allside {
+        width: 100%;
+    }
+
+    .feedback .client {
+        padding: 20px;
+    }
+
+    .background {
+        top: -58%;
+        left: -75%;
+    }
+
+    .contact-us .inner .label1 input {
+        width: 100%;
+
+    }
+
+    .portfolio h2,
+    .our-blog h2,
+    .contact-us h2,
+    .our-services h2,
+    .feedback h2 {
+        font-size: 20px;
+        padding: 15px 0 7px;
+        
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .container {
+        width: 60%;
+        margin: auto;
+
+    }
+
+    .navbar .nav ul li {
+        display: none;
+    }
+
+    .cv .photo {
+        border: none;
+        width: 100%;
+        height: 600px;
+
+    }
+
+    .photo .icons {
+        line-height: 400px;
+        font-size: 10px;
+    }
+
+    .photo .icons i {
+        padding: 5px;
+    }
+
+    .cv .description {
+        width: 100%;
+        padding: 0 30;
+    }
+
+    .description ul {
+
+        margin-bottom: 10px;
+
+    }
+
+    .description .ul2 {
+        margin-left: 0px;
+    }
+
+
+    .btn {
+        margin: 5px;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .our-services .parent {
+        margin: 20px;
+
+    }
+
+    .our-services .parent .child {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .portfolio .buttons ul li {
+        padding: 1px 6px;
+        margin-bottom: 15px;
+    }
+
+    .portfolio .catalogs .catalog1 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .analysis .parent .child {
+        width: 100%;
+        padding: 25px;
+
+    }
+
+    .our-blog .child {
+
+        width: 100%;
+        padding: 5px;
+    }
+
+    .feedback .allside {
+        width: 100%;
+    }
+
+    .feedback .client {
+        padding: 20px;
+    }
+
+    .background {
+        top: -38%;
+        left: -75%;
+    }
+
+    .contact-us .inner .label1 input {
+        width: 100%;
+
+    }
+    .portfolio h2,
+    .our-blog h2,
+    .contact-us h2,
+    .our-services h2,
+    .feedback h2 {
+        font-size: 30px;
+        padding: 15px 0 7px;
+        
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .navbar .nav ul li {
+        margin: 8px;
+    }
+
+    .cv .photo {
+        border: #555555 solid 7px;
+        width: 30%;
+        height: 300px;
+    }
+
+    .photo .icons {
+        line-height: 300px;
+    }
+
+    .photo .parent {
+        left: 10px;
+        top: 10px;
+        height: 300px;
+    }
+
+    .cv .description {
+        width: 70%;
+        padding: 0 0;
+    }
+
+    .description ul li {
+        padding: 5px;
+    }
+
+    .btn {
+        margin: 20px;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .our-services .parent {
+        margin: 20px;
+    }
+
+    .our-services .parent .child {
+        width: 50%;
+        padding: 25px;
+    }
+
+    .portfolio .buttons ul li {
+        padding: 1px 6px;
+        margin-bottom: 15px;
+    }
+
+    .portfolio .catalogs .catalog1 {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .analysis .parent .child {
+        width: 50%;
+        padding: 25px;
+
+    }
+
+    .feedback .allside {
+        width: 90%;
+    }
+
+    .feedback .client {
+        padding: 20px;
+    }
+
+    .background {
+        top: -25%;
+        left: -75%;
+    }
+
+    .our-blog .child {
+
+        width: 50%;
+        padding: 5px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .container {
+        width: 80%;
+    }
+
+    .our-services .parent {
+        margin: 20px;
+    }
+
+    .our-services .parent .child {
+        width: 33.333%;
+        padding: 25px;
+    }
+
+    .background {
+        top: -24%;
+        left: -75%;
+    }
+
+
+
+}
